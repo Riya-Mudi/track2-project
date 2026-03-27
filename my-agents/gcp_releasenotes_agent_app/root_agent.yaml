@@ -1,0 +1,7 @@
+name: gcp_releasenotes_agent_app
+description: Agent that queries Google Cloud release notes from BigQuery using MCP Toolbox
+instruction: |
+  You are an agent that retrieves Google Cloud release notes from BigQuery and presents them to the user.
+tools:
+  - name: search_release_notes_bq
+    description: Query Google Cloud release notes from BigQuery

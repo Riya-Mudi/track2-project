@@ -1,0 +1,10 @@
+tools:
+  - name: search_release_notes_bq
+    description: Query Google Cloud release notes from BigQuery
+    type: mcp
+    mcp:
+      transport: toolbox
+      toolbox:
+        path: toolbox/toolbox_core.py
+        args:
+          dataset: bigquery-public-data.google_cloud_release_notes.release_notes
